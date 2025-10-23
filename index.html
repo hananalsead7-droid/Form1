@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!--start form-->
+  <div class="contaier">
+    <form action="" onsubmit="return formValdeation()" class="formValdeation">
+        <div id="erorr" class="error"></div>
+      <!--البيانات-->
+     <input type="text" placeholder="Last Name" id="Last_Name">
+     <input type="text" placeholder="Frist Name"  id="Frist_Name">
+      <input type="email" placeholder="Enter email" id="Email">
+      <!--تحقق من الباسورد -->
+      <div>
+        <input type="password" id="password" name="password" required  placeholder="password">
+        <p id="password-feedback" class="feedback"></p>
+        <small></small>
+    </div>
+   <!--تاكيد الباسورد-->
+    <div>
+        <input type="password" id="confirm_password" name="confirm_password"  placeholder="تاكيد من كلمه المرور" dir="rtl">
+        <p id="confirm-feedback" class="feedback"></p>
+    </div>
+
+   <button type="submit" id="Supmit"  class="button">Submit</button>
+
+    </form>
+  </div>
+
+<script src="script.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

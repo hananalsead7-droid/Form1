@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contaier{
+   flex-direction: column;
+   width: 420px;
+   height: 490px;
+     background: linear-gradient(#5c3e949f, #412b6bad, #2118328e);
+     border-radius: 10px;
+}
+
+.contaier .formValdeation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contaier .formValdeation .error{
+  padding: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.contaier .formValdeation input{
+    width: 400px;
+    height: 40px;
+    padding: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+.feedback{
+ padding: 5px;
+}
+small{
+    font-size: 15px;
+}
+
+.contaier .formValdeation .button{
+    width: 200px;
+    height: 35px;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(#5C3E94, #412B6B, #211832);
+}
+
+.contaier .formValdeation input::placeholder{
+    font-size: 18px;
+}
+
